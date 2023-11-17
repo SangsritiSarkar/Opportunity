@@ -1,0 +1,84 @@
+.about{
+    margin: 20px;
+}
+
+.about .heading {
+    color: #333; /* Replace with your desired text color */
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+}
+  
+ .about-container .singleGrid {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 20px;
+    background-color: white;
+	  box-shadow: 0px 7px 14px -5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 1.5rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .subheading{
+    display: flex;
+    margin: 6px;
+  }
+  
+  .first:hover {
+    background-color: #c9f1f1;
+  }
+
+ .second:hover {
+    background-color: #eec6e2;
+  }
+  .third:hover {
+    background-color: #f0ecba;
+  }
+
+  
+  img {
+    background-color: #dedef8;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+  }
+  
+  
+  /* .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  .head {
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .description {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    opacity: 0.7;
+    margin: 1rem 0 0 0;
+  }
+
+
+  /* greyish: #f1f4f8;
+  cardshadow: #f7f8f9;
+  textcolor: #252b36; */

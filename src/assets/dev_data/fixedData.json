@@ -1,0 +1,865 @@
+[
+  {
+    "title": "Qualcomm Global Scholars Program",
+    "description": "The Qualcomm Global Scholars Program provides scholarships to female students in India who are pursuing undergraduate or postgraduate studies in STEM fields.",
+    "deadline": "2 January",
+    "stipend": "Paid",
+    "org": "Qualcomm",
+    "type": "Scholarship",
+    "tags": ["Female-only", "MNCs", "STEM"],
+    "location": "India",
+    "link": "https://www.iie.org/Programs/WeTech/STEM-Scholarships-for-Women/Qualcomm-Global-Scholars-Program/India"
+  },
+  {
+    "title": "Microsoft Engage",
+    "description": "The Microsoft Engage program is a mentorship program that connects students with industry professionals to help them develop their technical and professional skills.",
+    "deadline": "24 May",
+    "stipend": "Unpaid",
+    "org": "Microsoft",
+    "type": "Mentorship",
+    "tags": ["Mentorship", "Microsoft", "Tech"],
+    "location": "Global",
+    "link": "https://microsoft.acehacker.com/engage2021/?mc_cid=a82d11f2ad&mc_eid=3f7ceca487"
+  },
+  {
+    "title": "Google Women Techmakers Scholarship",
+    "description": "The Google Women Techmakers Scholarship is designed to encourage women in technology and computing by providing scholarships and opportunities to attend conferences and events.",
+    "deadline": "31 December",
+    "stipend": "$10,000 (for US-based scholars) or local equivalent (for non-US-based scholars)",
+    "org": "Google",
+    "type": "Scholarship",
+    "tags": ["Women-only", "Scholarship", "Conference", "Tech"],
+    "location": "Global",
+    "link": "https://developers.google.com/community/women-techmakers/scholars"
+  },
+  {
+    "title": "Goldman Sachs Engineering Campus Hiring Program",
+    "description": "The Goldman Sachs Engineering Campus Hiring Program is aimed at identifying top engineering talent across India and engaging with them through internships and full-time roles.",
+    "deadline": "3 January 2022",
+    "stipend": "Paid",
+    "org": "Goldman Sachs",
+    "type": "Internship",
+    "tags": ["MNCs", "Backend", "Frontend", "Full-stack", "Software", "India"],
+    "location": "India",
+    "link": "https://www.goldmansachs.com/careers/students/programs/india/engineers-campus-hiring-program.html"
+  },
+  {
+    "title": "Season of KDE",
+    "description": "The Season of KDE is a mentorship program that encourages students to contribute to the open-source KDE project and gain experience in software development.",
+    "deadline": "4 January",
+    "stipend": "Unpaid",
+    "org": "KDE",
+    "type": "Mentorship",
+    "tags": ["Open-source", "Backend", "Frontend", "Full-stack", "Software", "Python"],
+    "location": "Remote",
+    "link": "https://season.kde.org/"
+  },
+  {
+    "title": "Microsoft Research Fellows Program",
+    "description": "The Microsoft Research Fellows Program provides opportunities for recent PhD graduates to conduct research in collaboration with Microsoft Research in India.",
+    "deadline": "14 January 2022",
+    "stipend": "Paid",
+    "org": "Microsoft",
+    "type": "Fellowship",
+    "tags": ["Research", "Data Science", "Machine Learning"],
+    "location": "India",
+    "link": "https://www.microsoft.com/en-us/research/academic-program/research-fellows-program-at-microsoft-research-india/"
+  },
+  
+  {
+    "title": "Goldman Sachs Women Possibilities Summit: Finance",
+    "description": "The Goldman Sachs Women Possibilities Summit: Finance is a scholarship program that provides female students with an opportunity to learn about careers in finance and consulting.",
+    "deadline": "15 January",
+    "link": "https://www.goldmansachs.com/careers/students/programs/india/womens-possibilities-summit-finance.html",
+    "stipend": "Paid",
+    "org": "Goldman Sachs",
+    "type": "Scholarship",
+    "tags": ["Female-only", "Finance", "Consultancy"],
+    "location": "Remote"
+  },
+  {
+    "title": "Internshala Career Scholarship for Girls",
+    "description": "The Internshala Career Scholarship for Girls is a scholarship program that provides financial assistance to young women pursuing careers in technology and related fields.",
+    "deadline": "15 January 2022",
+    "link": "https://blog.internshala.com/2021/12/internshala-career-scholarship-for-girls-2022/",
+    "stipend": "Yes",
+    "org": "Internshala",
+    "type": "Scholarship",
+    "tags": [
+      "Female-only",
+      "Backend",
+      "Frontend",
+      "Full-stack",
+      "Software",
+      "Data Science",
+      "Data Analyst",
+      "Android",
+      "Python"
+    ],
+    "location": "Remote"
+  },
+  {
+    "title": "ETHWMN Fellowship",
+    "description": "The ETHWMN Fellowship is a fellowship program designed to empower and support women who are interested in pursuing careers in technology and related fields.",
+    "deadline": "15 January 2022",
+    "link": "https://ethwmn.devfolio.co/",
+    "stipend": "Unpaid",
+    "org": "ETHWMN",
+    "type": "Fellowship",
+    "tags": [
+      "Female-only",
+      "Open-source",
+      "Backend",
+      "Frontend",
+      "Full-stack",
+      "Software",
+      "Machine Learning",
+      "Data Science",
+      "Data Analyst",
+      "Android",
+      "Python"
+    ],
+    "location": "Remote"
+  },
+  {
+    "title": "Goldman Sachs WeTech",
+    "description": "Goldman Sachs WeTech is a mentorship program designed to provide female students with the opportunity to learn from and be mentored by women who are leaders in the technology industry.",
+    "deadline": "18 January",
+    "link": "https://www.iie.org/Programs/WeTech/STEM-Scholarships-for-Women/Goldman-Sachs-Scholarship",
+    "stipend": "Unpaid",
+    "org": "Goldman Sachs",
+    "type": "Mentorship",
+    "tags": ["Female-only", "MNCs", "Finance", "Consultancy"],
+    "location": "Remote"
+  },
+  {
+    "title": "Intuit Augment Program",
+    "description": "The Intuit Augment Program is a mentorship program designed to provide female students with the opportunity to learn from and be mentored by women who are leaders in the data science industry.",
+    "deadline": "21 January",
+    "link": "https://www.surveymonkey.com/r/INTUIT_2020",
+    "stipend": "Unpaid",
+    "org": "Intuit",
+    "type": "Mentorship",
+    "tags": ["Female-only", "Software", "Data Science"],
+    "location": "Remote"
+  },
+  {
+    "name": "Intuit Augment Program",
+    "type": "Mentorship",
+    "deadline": "21 January",
+    "link": "https://www.surveymonkey.com/r/INTUIT_2020",
+    "org": "Intuit",
+    "stipend": "Unpaid",
+    "tags": ["Female-only", "Software", "Data Science"],
+    "location": "Remote"
+  },
+  {
+    "name": "Data Science for Social Good",
+    "type": "Fellowship",
+    "deadline": "28 January 2022",
+    "link": "https://www.dssgfellowship.org/apply-to-be-a-2022-dssg-summer-fellow/",
+    "org": "Data Science for Social Good",
+    "stipend": "Paid",
+    "tags": [
+      "Open-source",
+      "Data Science",
+      "Social Good",
+      "Machine Learning"
+    ],
+    "location": "Remote"
+  },
+  {
+    "name": "URAM Scholarship Program",
+    "type": "Scholarship",
+    "deadline": "30 January 2022",
+    "link": "https://uramscholarship.in/",
+    "org": "URAM Scholarship Program",
+    "stipend": "Unpaid",
+    "tags": ["Female-only", "Engineering", "Medical", "Law", "Business"],
+    "location": "Remote"
+  },
+  {
+    "name": "Pragati Scholarship",
+    "type": "Scholarship",
+    "deadline": "31 January",
+    "link": "https://www.buddy4study.com/article/pragati-scholarship",
+    "org": "AICTE",
+    "stipend": "Paid",
+    "tags": [
+      "Female-only",
+      "Engineering",
+      "Technology",
+      "Science",
+      "Management"
+    ],
+    "location": "Remote"
+  },
+  {
+    "name": "HPAIR Harvard Conference",
+    "type": "Scholarship",
+    "link": "https://hpair.org/harvard-conference-2021",
+    "deadline": "January",
+    "org": "Harvard Project for Asian and International Relations (HPAIR)",
+    "stipend": "Unpaid",
+    "tags": [
+      "Conference",
+      "Leadership",
+      "Business",
+      "International Relations"
+    ],
+    "location": "Cambridge, MA, USA"
+  },
+  
+  {
+    "title": "Code for Good by JP Morgan",
+    "description": "A hackathon that brings together students from all over the world to work on projects that address social good.",
+    "deadline": "January",
+    "stipend": "Unpaid",
+    "org": "JP Morgan",
+    "type": "Hackathon",
+    "tags": ["Hackathon", "Software", "Finance", "Social Good", "India"],
+    "location": "remote",
+    "link": "https://careers.jpmorgan.com/us/en/students/programs/code-for-good?search=&tags=location__AsiaPacific__India"
+  },
+  {
+    "title": "Cargill Scholarship",
+    "description": "A scholarship that provides financial assistance to students who are pursuing a degree in agriculture, business, engineering, or food.",
+    "deadline": "January",
+    "stipend": "Paid",
+    "org": "Cargill",
+    "type": "Scholarship",
+    "tags": ["Agriculture", "Business", "Engineering", "Food", "Women", "Developing Countries"],
+    "location": "remote",
+    "link": "https://www.cargillglobalscholars.com/scholarship/"
+  },
+  {
+    "title": "Uber She++",
+    "description": "A mentorship program for women who are interested in pursuing careers in technology.",
+    "deadline": "February 2022",
+    "stipend": "Unpaid",
+    "org": "Uber",
+    "type": "Mentorship for Women",
+    "tags": ["Female-only", "Technology", "Business", "Leadership"],
+    "location": "remote",
+    "link": "https://events.beamery.com/uber/uber-she++-2022-t1khjteyw"
+  },
+  {
+    "title": "IRIS-HEP Fellows",
+    "description": "A fellowship program for physicists and astronomers who are interested in conducting research in high energy physics.",
+    "deadline": "February",
+    "stipend": "Paid",
+    "org": "IRIS-HEP",
+    "type": "Research, Fellowship",
+    "tags": ["Physics", "Astronomy", "Data Science", "High Energy Physics", "Machine Learning"],
+    "location": "remote",
+    "link": "https://iris-hep.org/fellows.html"
+  },
+  {
+    "title": "ETHWMN Fellowship",
+    "description": "A fellowship program for women who are interested in pursuing careers in technology and related fields.",
+    "deadline": "15 January 2022",
+    "stipend": "Unpaid",
+    "org": "ETHWMN",
+    "type": "Fellowship",
+    "tags": ["Female-only", "Open-source", "Backend", "Frontend", "Full-stack", "Software", "Machine Learning", "Data Science", "Data Analyst", "Android", "Python"],
+    "location": "remote",
+    "link": "https://ethwmn.devfolio.co/"
+  },
+  {
+    "title": "Harvard US-India Initiative Conference",
+    "description": "A conference that brings together students from the United States and India to discuss leadership, business, and international relations.",
+    "deadline": "3 February",
+    "stipend": "Unpaid",
+    "org": "Harvard US-India Initiative",
+    "type": "Scholarship",
+    "tags": [
+      "Conference",
+      "Leadership",
+      "Business",
+      "International Relations",
+      "India"
+    ],
+    "location": "Remote",
+    "link": "https://www.huii.in/apply-now"
+  },
+  {
+    "title": "Flipkart Girls Wanna Code",
+    "description": "A mentorship program that provides female students with the opportunity to learn about software engineering and coding.",
+    "deadline": "5 Feb",
+    "stipend": "Unpaid",
+    "org": "Flipkart",
+    "type": "Internship",
+    "tags": ["Female-only", "Software", "Coding", "India"],
+    "location": "India",
+    "link": "https://www.google.com/amp/s/dare2compete.com/o/flipkart-girls-wanna-code-30-flipkart-145093/amp"
+  },
+  {
+    "title": "Microsoft India - Design Challenge 2022",
+    "description": "A design challenge that invites students from India to create innovative solutions to real-world problems.",
+    "deadline": "6 February 2022",
+    "stipend": "Unpaid",
+    "org": "Microsoft India",
+    "type": "Industrial",
+    "tags": ["Design", "India", "UI/UX", "Product Development"],
+    "location": "India",
+    "link": "https://www.msdesignchallenge.in/"
+  },
+  {
+    "title": "LFX",
+    "description": "A mentorship program that provides students with the opportunity to learn from experienced professionals in the open source community.",
+    "deadline": "12 February",
+    "stipend": "Unpaid",
+    "org": "Linux Foundation",
+    "type": "Mentorship",
+    "tags": [
+      "Open Source",
+      "Software Development",
+      "Linux",
+      "Cloud Computing"
+    ],
+    "location": "Remote",
+    "link": "https://lfx.linuxfoundation.org/tools/mentorship/"
+  },
+  {
+    "title": "Society of Women Engineers Scholarship Application System",
+    "description": "A scholarship program that provides financial assistance to female students who are pursuing degrees in engineering.",
+    "deadline": "15 February 2022",
+    "stipend": "$2,000 - $5,000",
+    "org": "Society of Women Engineers",
+    "type": "Scholarship",
+    "tags": ["Female-only", "Engineering", "Technology", "STEM"],
+    "location": "Remote",
+    "link": "https://scholarships.swe.org/applications/login.asp"
+  },
+  {
+    "title": "J.P. Morgan Quant Mentorship Program",
+    "description": "A mentorship program that provides students with the opportunity to learn from experienced professionals in quantitative finance.",
+    "deadline": "before 17 Februaury 2022",
+    "stipend": "Unpaid",
+    "org": "J.P. Morgan",
+    "type": "Mentorship",
+    "tags": ["Quantitative Finance", "Women", "Trading"],
+    "location": "Remote",
+    "link": "https://jpmc.recsolu.com/app/collect/event/TDMNonCLZS-KWbHKF9c_DA"
+  }
+
+  {
+    "title": "GirlScript Summer Of Code",
+    "description": "A mentorship program that provides female students with the opportunity to learn about open source software development and machine learning.",
+    "deadline": "19 February",
+    "stipend": "Unpaid",
+    "org": "GirlScript Foundation",
+    "type": "Mentorship",
+    "tags": [
+      "Open Source",
+      "Software Development",
+      "Web Development",
+      "Machine Learning"
+    ],
+    "location": "Remote",
+    "link": "https://gssoc.girlscript.tech/index.html"
+  },
+  {
+    "title": "American Express Makethon",
+    "description": "A hackathon that invites female students to create innovative solutions to real-world problems in the field of finance.",
+    "deadline": "20 February 2022",
+    "stipend": "Unpaid",
+    "org": "American Express",
+    "type": "Hackathon",
+    "tags": ["Female-only", "Finance", "Payment Systems", "Technology"],
+    "location": "Remote",
+    "link": "https://american-express-makeathon-2022.hackerearth.com/"
+  },
+  {
+    "title": "Outreachy Summer Cycle",
+    "description": "A paid internship program that provides opportunities for underrepresented groups to contribute to open source software projects.",
+    "deadline": "25 February 2022",
+    "stipend": "$2,000 - $5,000",
+    "org": "Outreachy",
+    "type": "Internship",
+    "tags": [
+      "Female",
+      "LGBTQIA+",
+      "Non-binary",
+      "Open Source",
+      "Software Development",
+      "Documentation",
+      "Design",
+      "Data Science",
+      "Linux Kernel",
+      "Web Development"
+    ],
+    "location": "Remote",
+    "link": "https://www.outreachy.org/"
+  },
+  {
+    "title": "Uber HackTag 2.0",
+    "description": "A hackathon that invites students to build innovative solutions that use Uber's data and technology.",
+    "deadline": "25 February 2022",
+    "stipend": "Unpaid",
+    "org": "Uber Technologies, Inc.",
+    "type": "Hackathon",
+    "tags": ["Technology", "Innovation", "Mobility", "Business"],
+    "location": "Remote",
+    "link": "https://dare2compete.com/hackathon/uber-hacktag-20-uber-technologies-inc-260528"
+  },
+  {
+    "title": "Student of Vision Abie Award",
+    "description": "A scholarship award that recognizes and supports undergraduate and graduate women who are pursuing computing and technology degrees.",
+    "deadline": "25 February",
+    "stipend": "$5,000",
+    "org": "AnitaB.org",
+    "type": "Scholarship",
+    "tags": [
+      "Women",
+      "Undergraduate",
+      "Graduate",
+      "Computing",
+      "Technology",
+      "STEM"
+    ],
+    "location": "Remote",
+    "link": "https://anitab.org/awards-grants/abie-awards/student-of-vision/"
+  },
+  {
+    "title": "LinkedIn CoachlN",
+    "description": "A mentorship program that provides female professionals with the opportunity to connect with experienced mentors and receive guidance on their career development.",
+    "deadline": "27 February 2022",
+    "stipend": "Unpaid",
+    "org": "LinkedIn",
+    "type": "Mentorship",
+    "tags": [
+      "Women",
+      "Professional Development",
+      "Career Growth",
+      "Networking"
+    ],
+    "location": "Remote",
+    "link": "https:/linkedincoachin3.splashthat.com/"
+  },
+  {
+    "name": "Github Campus Expert Program",
+    "description": "A mentorship program that provides students with the opportunity to become community leaders on GitHub.",
+    "deadline": "28 February 2022",
+    "stipend": "Unpaid",
+    "org": "GitHub",
+    "type": "Mentorship",
+    "tags": [
+      "Technology",
+      "Open Source",
+      "Community Building"
+    ],
+    "location": "Remote",
+    "link": "https://apply.githubcampus.expert/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/GitHub_logo.svg/1200px-GitHub_logo.svg.png"
+  },
+  {
+    "name": "Google Computer Science Summer Institute",
+    "description": "A paid fellowship program that provides undergraduate students with the opportunity to learn about computer science and engineering from Google engineers.",
+    "deadline": "March",
+    "stipend": "$5,000",
+    "org": "Google",
+    "type": "Fellowship",
+    "tags": [
+      "Undergraduate",
+      "Computing",
+      "Technology",
+      "STEM",
+      "Diversity"
+    ],
+    "location": "Remote",
+    "link": "https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Google_logo.svg/1200px-Google_logo.svg.png"
+  },
+  {
+    "name": "Microsoft Reinforcement Learning Open Source Fest",
+    "description": "A free online event that brings together students, researchers, and engineers to learn about reinforcement learning and open source.",
+    "deadline": "1 March",
+    "stipend": "Unpaid",
+    "org": "Microsoft",
+    "type": "Open Source Fest",
+    "tags": [
+      "Reinforcement Learning",
+      "Artificial Intelligence",
+      "Open Source",
+      "Software Development"
+    ],
+    "location": "Remote",
+    "link": "https://www.microsoft.com/en-us/research/academic-program/rl-open-source-fest/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Microsoft_logo.svg/1200px-Microsoft_logo.svg.png"
+  },
+  {
+    "name": "Juspay Hiring Challenge 2022",
+    "description": "A hackathon and coding challenge that gives students the opportunity to showcase their skills and win prizes.",
+    "deadline": "5 March 2022",
+    "stipend": "Up to $10,000",
+    "org": "Juspay",
+    "type": "Hackathon, Coding Challenge",
+    "tags": ["Technology", "Payments", "FinTech", "Software Development"],
+    "location": "Remote",
+    "link": "https://dare2compete.com/hackathon/juspay-hiring-challenge-2022-juspay-263513",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Juspay_logo.svg/1200px-Juspay_logo.svg.png"
+  },
+  {
+    "name": "Amdocs Hackfest 2022",
+    "description": "A coding challenge that gives students the opportunity to showcase their skills and win prizes.",
+    "deadline": "4 March 2022",
+    "stipend": "Up to $10,000",
+    "org": "Amdocs",
+    "type": "Coding Challenge",
+    "tags": [
+      "Technology",
+      "Software Development"
+    ],
+    "location": "Remote",
+    "link": "https://www.hackerearth.com/challenges/competitive/amdocs-hackfest-2022/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Amdocs_Logo.svg/1200px-Amdocs_Logo.svg.png"
+  },
+  {
+    "name": "Crossroads Emerging Leaders Program",
+    "description": "A fellowship program that provides emerging leaders from the Middle East, North Africa, and Central Asia with the opportunity to develop their leadership skills and make a positive impact on their communities.",
+    "deadline": "8 March",
+    "stipend": "$5,000",
+    "org": "Harvard University",
+    "type": "Fellowship",
+    "tags": [
+      "Leadership",
+      "Middle East",
+      "North Africa",
+      "Central Asia"
+    ],
+    "location": "Remote",
+    "link": "https://cmes.fas.harvard.edu/crossroads-emerging-leaders-program",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Harvard_University_logo.svg/1200px-Harvard_University_logo.svg.png"
+  },
+  {
+    "name": "Google Girl Hackathon",
+    "description": "A hackathon that provides girls and women with the opportunity to learn about technology and coding, and to build their skills and confidence.",
+    "deadline": "9 March 2022",
+    "stipend": "Unpaid",
+    "org": "Google",
+    "type": "Hackathon",
+    "tags": [
+      "Women",
+      "Computing",
+      "Technology",
+      "STEM"
+    ],
+    "location": "Remote",
+    "link": "https://buildyourfuture.withgoogle.com/programs/girl-hackathon/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Google_Gmail_Logo.svg/1200px-Google_Gmail_Logo.svg.png"
+  },
+  {
+    "name": "Reply Code Challenge",
+    "description": "A coding challenge that gives students the opportunity to showcase their skills and win prizes.",
+    "deadline": "11 March",
+    "stipend": "Up to €10,000",
+    "org": "Reply",
+    "type": "Coding Challenge",
+    "tags": [
+      "Technology",
+      "Software Development"
+    ],
+    "location": "Remote",
+    "link": "https://www.reply.com/en/newsroom/events/reply-code-challenge-2021",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Reply_logo.svg/1200px-Reply_logo.svg.png"
+  },
+  {
+    "name": "Micron Global Women's Mentorship Program",
+    "description": "A mentorship program that provides women with the opportunity to connect with experienced mentors and receive guidance on their career development.",
+    "deadline": "12 March",
+    "stipend": "Unpaid",
+    "org": "Micron",
+    "type": "Mentorship for Women",
+    "tags": [
+      "Women",
+      "Technology",
+      "Mentorship"
+    ],
+    "location": "Global",
+    "link": "https://micron.wd1.myworkdayjobs.com/External/job/Hyderabad---Skyview-India/Micron-Global-Women-s-Mentorship-Program_JR13982",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Micron_Technology_logo.svg/1200px-Micron_Technology_logo.svg.png"
+  },
+  {
+    "name": "Microsoft Diversity Scholarship (US only)",
+    "description": "A scholarship that recognizes and supports women who are pursuing computing and technology degrees.",
+    "deadline": "12 March",
+    "stipend": "$5,000",
+    "org": "Microsoft",
+    "type": "Scholarship",
+    "tags": [
+      "Women",
+      "Computing",
+      "Technology",
+      "STEM",
+      "Diversity"
+    ],
+    "location": "US",
+    "link": "https://www.microsoft.com/en-us/diversity/programs/women-at-microsoft-scholarship",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Microsoft_logo.svg/1200px-Microsoft_logo.svg.png"
+  },
+  {
+    "name": "Summer Of Bitcoin",
+    "description": "A paid internship program that gives students the opportunity to learn about Bitcoin and blockchain technology.",
+    "deadline": "15 March 2022",
+    "stipend": "Up to $5,000",
+    "org": "",
+    "type": "Open Source Internship",
+    "tags": [
+      "Bitcoin",
+      "Open Source",
+      "Software Development"
+    ],
+    "location": "Remote",
+    "link": "https://www.summerofbitcoin.org/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Bitcoin_logo.svg/1200px-Bitcoin_logo.svg.png"
+  },
+  {
+    "name": "Caltech Student-Faculty Programs (SURF)",
+    "description": "A research fellowship program that gives undergraduate and graduate students the opportunity to work with Caltech faculty on cutting-edge research projects.",
+    "deadline": "15 March",
+    "stipend": "Unpaid",
+    "org": "Caltech",
+    "type": "Fellowship",
+    "tags": [
+      "STEM",
+      "Research"
+    ],
+    "location": "Pasadena, CA",
+    "link": "https://www.surf.caltech.edu/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Caltech_logo.svg/1200px-Caltech_logo.svg.png"
+  },
+  {
+    "name": "Cisco thingQbator",
+    "description": "A mentorship program that gives students the opportunity to learn about Internet of Things (IoT) technology and to develop their skills in this field.",
+    "deadline": "15 March",
+    "stipend": "Unpaid",
+    "org": "Cisco",
+    "type": "Mentorship",
+    "tags": [
+      "Technology",
+      "Mentorship"
+    ],
+    "location": "India",
+    "link": "https://thingqbator.nasscomfoundation.org/login",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Cisco_logo.svg/1200px-Cisco_logo.svg.png"
+  },
+  {
+    "name": "Global Impact Scholarship",
+    "description": "A scholarship that recognizes and supports students who are using technology to make a positive impact on the world.",
+    "deadline": "17 March 2022",
+    "stipend": "$10,000",
+    "org": "Palantir",
+    "type": "Scholarship",
+    "tags": [
+      "Technology",
+      "Social Impact",
+      "Scholarship"
+    ],
+    "location": "Global",
+    "link": "https://www.palantir.com/careers/students/scholarship/global-impact/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Palantir_logo.svg/1200px-Palantir_logo.svg.png"
+  },
+  {
+    "name": "WTEF by TalentSprint",
+    "description": "A fellowship program that provides women with the opportunity to learn about emerging technologies and to build their skills in this field.",
+    "deadline": "21 March",
+    "stipend": "Up to $10,000",
+    "org": "TalentSprint",
+    "type": "Fellowship for Women",
+    "tags": [
+      "Women",
+      "Technology",
+      "Fellowship"
+    ],
+    "location": "India",
+    "link": "https://we.talentsprint.com/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TalentSprint_logo.svg/1200px-TalentSprint_logo.svg.png"
+  },
+  {
+    "name": "Virtual Insights Series: An Exploratory Program",
+    "description": "A paid virtual program that gives students the opportunity to learn about different areas of business at Goldman Sachs.",
+    "deadline": "21 March",
+    "stipend": "Up to $1,500",
+    "org": "Goldman Sachs",
+    "type": "Exploratory Program",
+    "tags": [
+      "Finance",
+      "Technology",
+      "Exploratory Program"
+    ],
+    "location": "Remote",
+    "link": "https://www.goldmansachs.com/careers/students/programs/americas/undergrad-virtual-insight-series.html",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Goldman_Sachs_logo.svg/1200px-Goldman_Sachs_logo.svg.png"
+  },
+  {
+    "name": "Western Digital Scholarships for STEM",
+    "description": "A scholarship program that provides financial assistance to women who are pursuing degrees in STEM fields.",
+    "deadline": "24 March",
+    "stipend": "Up to $10,000",
+    "org": "Western Digital",
+    "type": "Scholarship",
+    "tags": [
+      "Women",
+      "STEM",
+      "Scholarship"
+    ],
+    "location": "Global",
+    "link": "https://www.westerndigital.com/company/corporate-philanthropy/scholarship-programs",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Western_Digital_logo.svg/1200px-Western_Digital_logo.svg.png"
+  },
+  {
+    "name": "Delta Analytics Global Teaching Fellow",
+    "description": "A paid fellowship program that provides data scientists with the opportunity to teach and mentor students in developing countries.",
+    "deadline": "27 March",
+    "stipend": "Up to $10,000",
+    "org": "Delta Analytics",
+    "type": "Fellowship",
+    "tags": [
+      "Data Science",
+      "Fellowship"
+    ],
+    "location": "Remote",
+    "link": "http://www.deltanalytics.org/global-teaching-fellowship-application.html",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Delta_Analytics_logo"
+  },
+  {
+    "name": "Adobe CoDiva",
+    "description": "A hackathon for women that provides participants with the opportunity to learn about and use Adobe Creative Cloud software.",
+    "deadline": "27 March",
+    "stipend": "Up to $1,000",
+    "org": "Adobe",
+    "type": "Hackathon for Women",
+    "tags": [
+      "Women",
+      "Technology",
+      "Hackathon"
+    ],
+    "location": "Remote",
+    "link": "https://www.firstnaukri.com/careers/customised/landingpage/adobe/codiva/index.html",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Adobe_Systems_logo.svg/1200px-Adobe_Systems_logo.svg.png"
+  },
+  {
+    "name": "AWS Community Builder Program",
+    "description": "A program that provides AWS enthusiasts with the opportunity to become ambassadors for the AWS community.",
+    "deadline": "30 March",
+    "stipend": "Unpaid",
+    "org": "Amazon Web Services",
+    "type": "Ambassador Program",
+    "tags": [
+      "Cloud Computing",
+      "Community",
+      "Ambassador"
+    ],
+    "location": "Global",
+    "link": "https://aws.amazon.com/developer/community/community-builders/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Amazon_Web_Services_logo.svg/1200px-Amazon_Web_Services_logo.svg.png"
+  },
+  {
+    "name": "Rail Girls Summer of Code",
+    "description": "A paid internship program that provides women with the opportunity to learn about and contribute to open source Rails projects.",
+    "deadline": "30 March",
+    "stipend": "Up to $2,000",
+    "org": "Rails Girls Summer of Code",
+    "type": "Open Source Internship",
+    "tags": [
+      "Open Source",
+      "Software Development",
+      "Internship"
+    ],
+    "location": "Remote",
+    "link": "https://railsgirlssummerofcode.org/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Rails_Girls_logo.svg/1200px-Rails_Girls_logo.svg.png"
+  },
+  {
+    "name": "Palantir Global Impact Scholarship",
+    "description": "A scholarship that recognizes and supports students who are using technology to make a positive impact on the world.",
+    "deadline": "1 April",
+    "stipend": "$10,000",
+    "org": "Palantir",
+    "type": "Scholarship",
+    "tags": [
+      "Technology",
+      "Social Impact",
+      "Scholarship"
+    ],
+    "location": "Global",
+    "link": "https://www.palantir.com/students/scholarship/global-impact/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Palantir_logo.svg/1200px-Palantir_logo.svg.png"
+  },
+  {
+    "name": "1000 Dreams Fund (US only)",
+    "description": "A scholarship that provides financial assistance to women who are pursuing degrees in STEM fields.",
+    "deadline": "2 April",
+    "stipend": "Up to $20,000",
+    "org": "1000 Dreams Fund",
+    "type": "Scholarship",
+    "tags": [
+      "Women",
+      "STEM",
+      "Scholarship"
+    ],
+    "location": "US",
+    "link": "https://1000dreamsfund.org/apply/",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/1000_dreams_fund_logo.svg/1200px-1000_dreams"
+},
+
+  {
+    "name": "IDFC FIRST Bank_Women Only Challenge",
+    "description": "A coding challenge for women to showcase their skills and win a chance to work at IDFC FIRST Bank.",
+    "deadline": "3 April, 2022",
+    "stipend": "Up to $10,000",
+    "type": "Full-Time Employment",
+    "location": "Remote",
+    "org": "IDFC FIRST Bank",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/IDFC_logo.svg/1200px-IDFC_logo.svg.png",
+    "tags": ["Women", "Technology", "Employment"]
+  },
+  {
+    "name": "Mozilla Fellowship",
+    "description": "A fellowship program for women who are passionate about open source software.",
+    "deadline": "8 April",
+    "stipend": "$50,000",
+    "type": "Fellowship",
+    "location": "Remote",
+    "org": "Mozilla",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Mozilla_logo.svg/1200px-Mozilla_logo.svg.png",
+    "tags": ["Technology", "Open Source", "Fellowship"]
+  },
+  {
+    "name": "Code in Place by Stanford",
+    "description": "A 10-week online course that teaches women the basics of coding.",
+    "deadline": "8 April",
+    "stipend": "",
+    "type": "Online Course",
+    "location": "Remote",
+    "org": "Stanford University",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Stanford_University_logo.svg/1200px-Stanford_University_logo.svg.png",
+    "tags": ["Computer Science", "Online Learning"]
+  },
+  {
+    "name": "GoogleCloudReady Facilitator Program",
+    "description": "A program that trains women to become Google Cloud Certified Facilitators.",
+    "deadline": "9 April",
+    "stipend": "$10,000",
+    "type": "Program",
+    "location": "Global",
+    "org": "Google",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Palantir_logo.svg/1200px-Palantir_logo.svg.png",
+    "tags": ["Cloud Computing", "Google Cloud"]
+  },
+  {
+    "name": "AWS DeepRacer Women League - India 2021",
+    "description": "A hackathon for women to compete in a virtual race using AWS DeepRacer.",
+    "deadline": "9 April",
+    "stipend": "",
+    "type": "Hackathon for Women",
+    "location": "Remote",
+    "org": "Amazon Web Services",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/AWS_logo.svg/1200px-AWS_logo.svg.png",
+    "tags": ["Women", "Technology", "Hackathon"]
+  }
+
+
+
+

@@ -1,0 +1,12 @@
+.App{
+	width: 100%;
+}
+
+.light-theme{
+	background-color: white;
+	color: black;
+}
+/* .dark-theme{
+	background-color: #241c1c;
+	color: white;
+} */

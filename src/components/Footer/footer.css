@@ -1,0 +1,19 @@
+.footer{
+	/* border: 1px solid red; */
+	padding: 50px;
+	width: 80%;
+	margin: auto;
+	margin-top: 40px;
+	border-radius: 15px;
+	/* background-color: ; */
+	text-align: center;
+	font-size: 20px;
+}
+.footer a {
+	font-weight: 500;
+	transition: 0.25s all;
+}
+.footer a:hover{
+	color: var(--green);
+
+}

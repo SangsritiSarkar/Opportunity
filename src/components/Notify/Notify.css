@@ -1,0 +1,9 @@
+.notify{
+	width: 100%;
+	background-color: rgb(179, 130, 238, 0.5);
+	padding: 5px 10px;
+	font-size: 15px;
+	font-weight: 500;
+	margin: 20px 0;
+	border-radius: 5px;
+}

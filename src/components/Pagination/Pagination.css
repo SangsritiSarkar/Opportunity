@@ -1,0 +1,98 @@
+:root {
+	--bg: rgb(31, 32, 40);
+	--bg--10: rgb(31, 32, 40, 0.1);
+	--bg--light: rgb(75, 78, 100, 0.2);
+	--accent: #fab601;
+	--accent--filter: invert(68%) sepia(69%) saturate(1418%) hue-rotate(360deg) brightness(102%) contrast(99%);
+	--pink: rgb(194, 128, 210);
+	--pink-light: rgb(244, 210, 253) ;
+	--green: rgb(67, 185, 126);
+	--green-light: rgb(185, 249, 217);
+	--green--fadded: rgba(67, 185, 126, 0.255);
+	--yellow: var(--accent);
+	--yellow-light: #fbf2d8;
+}
+.pagination-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	border: 0px solid red;
+	width: auto;
+	margin-top: 50px;
+}
+.pagination-container .list{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	border: 0px solid red;
+}
+.pagination-container .list .item{
+	margin: 0;
+	margin-top: 0;
+	background-color: transparent;
+	box-shadow: none;
+	border-radius: 5px;
+	/* border-radius: 50%; */
+	cursor: pointer;
+	/* padding: 10px; */
+	width: 50px;
+	height: 50px;
+	outline: 2px solid grey;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.pagination-container .list .item.selected{
+	/* color: var(--green); */
+	background-color: var(--yellow-light);
+}
+.pagination-container .list .item:hover{
+	outline: 2px solid var(--yellow);
+}
+.pagination-container .list .item.dots{
+	cursor: auto;
+}
+.pagination-container .list .item.dots:hover{
+	outline: 0;
+}
+.pagination-container .arrow{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	/* outline: 2px solid var(--green); */
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.pagination-container .arrow:hover{
+	
+}
+@media only screen and (max-width: 667px){
+	.pagination-container{
+		width: auto;
+		margin-bottom: 1rem;
+	}
+	.pagination-container .list .item{
+		width: 22px;
+		height: 40px;
+	}
+}
+@media only screen and (min-width: 900px) and (max-width: 1270px){
+	.pagination-container{
+		/* width: auto; */
+		/* margin-bottom: 1rem; */
+	}
+	.pagination-container .list{
+		gap: 5px;
+	}
+	.pagination-container .list .item{
+		padding: 15px;
+		width: 3px;
+		height: 40px;
+	}
+}

@@ -1,0 +1,239 @@
+:root {
+	--bg: rgb(31, 32, 40);
+	--bg--10: rgb(31, 32, 40, 0.1);
+	--bg--light: rgb(75, 78, 100, 0.2);
+	--accent: #fab601;
+	--accent--filter: invert(68%) sepia(69%) saturate(1418%) hue-rotate(360deg) brightness(102%) contrast(99%);
+	--pink: rgb(194, 128, 210);
+	--pink-light: rgb(244, 210, 253) ;
+	--green: rgb(67, 185, 126);
+	--green-light: rgb(185, 249, 217);
+	--green--fadded: rgba(67, 185, 126, 0.255);
+	--yellow: var(--accent);
+	--yellow-light: #fbf2d8;
+}
+.table{
+	background-color: #f1f4f8;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 80%;
+	margin: auto;
+	gap: 40px;
+	padding: 2rem;
+	/* margin-top: 40px; */
+	/* border: 1px solid red; */
+	/* box-shadow: inset 0px -10px 14px -5px rgba(0, 0, 0, 0.15); */
+	
+}
+.striped-background {
+  background-color: #f1f4f8; /* Set the background color of the stripes */
+  background-image: repeating-linear-gradient(-45deg, rgba(86, 112, 145, 0.05), rgba(86, 112, 145, 0.05) 2px, transparent 2px, transparent 12px); /* Create a repeating diagonal stripe pattern */
+}
+
+
+
+
+.table .divider{
+	margin: 0px 0 40px 0;
+}
+.table .item{
+	/* margin-top: 40px; */
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 90%;
+	padding: 10px 20px ;
+	border-radius: 10px;
+	/* box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2); */
+	box-shadow: 0 3px 8px 0 #adbfd967;
+	/* outline:  2px solid #adbfd9; */
+	/* box-shadow: 0px 12px 19px -8px rgba(0, 0, 0, 0.15); */
+	/* outline: 2px solid rgb(132, 132, 132); */
+
+}
+.table .item .row-1{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.table .item .row-1 .col-1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/* width: 20%; */
+	border: 0px solid red;
+	font-size: 14px;
+	font-weight: 600;
+	color: grey;
+	padding: 10px;
+}
+.table .item .row-1 .col-1 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.table .item .row-1 .col-2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	/* width: 70%; */
+	flex-grow: 1;
+	padding: 0 0 0 10px;
+	border: 0px solid red;
+}
+.table .item .row-1 .col-2 .title{
+	padding: 10px 0 0;
+	font-size: 18px;
+	font-weight: 500;
+	transition: 0.5s all;
+	/* display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: row wrap; */
+	gap: 10px;
+}
+.table .item .row-1 .col-2 .title:hover{
+	text-decoration: underline;
+}
+.table .item .row-1 .col-2 .title .material-icons{
+	margin: 5px;
+}
+.table .item .row-1 .col-2 .org{
+	font-size: 15px;
+	color: grey;
+	font-weight: 500;
+	/* padding: 0 10px; */
+}
+.table .item .row-1 .col-3{
+	border: 0px solid red;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center; 
+	gap: 10px;
+}
+.table .item .row-1 .col-3 .material-icons{
+	padding: 10px;
+	border-radius: 50%;
+	
+	color: var(--green);
+	margin: 0 10px;
+	transition: 0.25s all;
+	font-size: 30px;
+}
+.table .item .row-1 .col-3 .material-icons:hover{
+	background-color: var(--green-light);
+}
+.table .item .tags{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-flow: row wrap;
+	gap: 10px;
+	padding: 5px 10px;
+	width: 100%;
+}
+.table .item .description{
+	padding: 10px;
+	font-size: 14px;
+	color: gray;
+}
+.table .item .divider{
+	color: grey;
+	width: 100%;
+	height: 2px;
+	margin: auto;
+	margin: 10px 0;
+	/* margin: auto; */
+}
+.table .item .details{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: row nowrap;
+	font-size: 15px;
+	/* gap: 40px; */
+	padding: 5px 10px;
+	width: 100%;
+}
+.table .item .details .col-1{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-flow: row wrap;
+	font-size: 15px;
+	gap: 30px;
+	border: 0px solid red;
+}
+.table .item .details .col-1 .detail{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+
+}
+.table .item .details .col-1 .icon .material-icons{
+	color: var(--green);
+	font-size: 20px;
+}
+.table .item .details .col-1 .detail .icon, .table .item .details .col-1 .stipend .icon{
+	/* border: 1px solid red; */
+	line-height: 0;
+	/* color: var(--green-light); */
+}
+.table .item .details .col-1 .stipend{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: row nowrap;
+	gap: 5px;
+}
+.table .item .details .col-1 .stipend .period{
+	font-size: 12px;
+	color: gray;
+	font-weight: 500
+}
+.table .item .details .col-2{
+	border: 0px solid red;
+}
+@media only screen and (max-width: 480px){
+	.table{
+		width: 100%;
+		padding: 0.125rem;
+	}
+	.table .item{
+		padding: 20px 10px;
+	}
+	.table .item .row-1 .col-3{
+		gap: 0;
+	}
+	.table .item .row-1 .col-3 .material-icons{
+		margin: 0 5px;
+	}
+
+	.table .item .details .col-1{
+		gap: 10px;
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 790px){
+	.table{
+		width: 100%;
+	}
+}

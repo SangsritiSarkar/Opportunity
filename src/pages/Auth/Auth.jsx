@@ -1,0 +1,178 @@
+import {
+	Box,
+	Paper,
+	Stack,
+	Typography,
+	Chip,
+	Divider,
+	TextField,
+	InputAdornment,
+	Button,
+	Avatar,
+} from "@mui/material";
+import React from "react";
+import { useState, useRef } from "react";
+
+import GoogleLogin from "../../components/GoogleLogin/GoogleLogin";
+// import { loginAuth, signupAuth } from "../../services/api";
+// import { alert } from "../../components/CustomAlert/alert";
+import CustomTextField from "../../components/CustomTextField";
+import { useNavigate } from "react-router-dom";
+import Notify from "../../components/Notify/Notify";
+import "./Auth.css";
+
+const Auth = ({login, user}) => {
+	const [signup, setSignup] = useState(false);
+	const [admin, setAdmin] = useState(false);
+	const [name, setName] = useState(null);
+	const [email, setEmail] = useState(null);
+	const [password, setPassword] = useState(null);
+	const [passwordConfirm, setPasswordConfirm] = useState(null);
+	const [adminPin, setAdminPin] = useState(null);
+	const navigate = useNavigate();
+
+	// console.log(process.env.REACT_APP_RECAPTCHA_SECRET_KEY);
+	// const handleSubmit = async () => {
+	// 	if (signup) {
+	// 		let payload;
+
+	// 		if (password !== passwordConfirm || password.trim().length < 8) {
+	// 			alert({ message: "Passwords doesn't match", type: "error" });
+	// 		} else if (!name || name.trim().length <= 0) {
+	// 			alert({ message: "Please provide a Name", type: "error" });
+	// 		} else {
+	// 			// const captchaToken = captchaRef.current.getValue();
+	// 			// console.log(captchaToken);
+	// 			// captchaRef.current.reset();
+
+	// 			if (admin) {
+	// 				payload = {
+	// 					name: name.trim(),
+	// 					email,
+	// 					password,
+	// 					passwordConfirm,
+	// 					admin,
+	// 					adminPin,
+	// 					// captchaToken,
+	// 				};
+	// 			} else {
+	// 				payload = {
+	// 					name: name.trim(),
+	// 					email,
+	// 					password,
+	// 					passwordConfirm,
+	// 					// captchaToken,
+	// 				};
+	// 			}
+	// 			try {
+	// 				const res = await signupAuth(payload);
+	// 				if (res.data.message === "success") {
+	// 					alert({
+	// 						message: "Successfully Logged In",
+	// 						type: "success",
+	// 					});
+	// 					navigate("/");
+	// 				}
+	// 				login(res.data.data.user);
+	// 			} catch (err) {
+	// 				alert({
+	// 					message: err.response.data.message,
+	// 					type: "error",
+	// 				});
+	// 			}
+	// 		}
+	// 	} else {
+	// 		const payload = {
+	// 			email,
+	// 			password,
+	// 		};
+	// 		try {
+	// 			const res = await loginAuth(payload);
+	// 			if (res.data.message === "success") {
+	// 				alert({
+	// 					message: "Successfully Logged In",
+	// 					type: "success",
+	// 				});
+	// 				navigate("/");
+	// 			}
+	// 			login(res.data.data.user);
+	// 		} catch (err) {
+	// 			alert({
+	// 				message: err.response.data.message,
+	// 				type: "error",
+	// 			});
+	// 		}
+	// 	}
+	// };
+
+	// const captchaRef = useRef(null);
+	return (
+		<div className="auth">
+			<div className="paper">
+				<div className="title">Login or Signup</div>
+				<Notify innerHtml={"We are working on bringing more signup options for you. Thanks for understanding."}></Notify>
+				<GoogleLogin login={login} user={user}></GoogleLogin>
+				<br></br>
+				{/* <Typography variant="caption">OR</Typography>
+				<br></br>
+				{signup && (
+					<><CustomTextField
+						onInput={(e) => setName(e.target.value)}
+						label="Name"
+						fullWidth={true}
+
+					></CustomTextField><br></br></>
+				)}
+				
+				<CustomTextField
+					label="Email"
+					type="email"
+					onInput={(e) => setEmail(e.target.value)}
+					fullWidth={true}
+				></CustomTextField>
+				<br></br>
+				<CustomTextField
+					label="Password"
+					onInput={(e) => setPassword(e.target.value)}
+					fullWidth={true}
+					type="password"
+					// helperText={"Password must have at least 8 characters"}
+				></CustomTextField>
+				{signup ? (
+					<><br></br><CustomTextField
+						label="Confirm Password"
+						onInput={(e) => setPasswordConfirm(e.target.value)}
+						fullWidth={true}
+						type="password"
+					></CustomTextField></>
+				) : null}
+
+				<Button
+					variant="contained"
+					color="primary"
+					type="submit"
+					sx={{
+						mt: "20px",
+						ml: "20px",
+					}}
+					startIcon={<span class="material-icons">check</span>}
+					onClick={handleSubmit}
+				>
+					{signup ? "signup" : "Login"}
+				</Button>
+
+
+				<Typography variant="caption">
+					{signup
+						? "Already have an account?"
+						: "Don't have an account?"}
+					<Button variant="text" onClick={() => setSignup(!signup)}>
+						{signup ? "Login" : "Signup"}
+					</Button>
+				</Typography> */}
+			</div>
+		</div>
+	);
+};
+
+export default Auth;

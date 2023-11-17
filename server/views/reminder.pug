@@ -1,0 +1,21 @@
+extends _baseEmail
+
+block content
+	p Hi #{firstName},
+		p Greetings from the Move Forward team 🙏
+		p This is a reminder that the deadline of #{oppurtunity.name} is in less then #{daysLeftToDeadline} days. \n
+		table.btn.btn-primary(role='presentation', border='0', cellpadding='0', cellspacing='0')
+			tbody
+				tr
+					td(align='left')
+						table(role='presentation', border='0', cellpadding='0', cellspacing='0')
+							tbody
+								tr
+									td
+										a(href=`${url}`, target='_blank') #{oppurtunity.name}
+		p If you have already applied, please ignore this email.
+		br
+		p We you think we are missing any oppurtunity, feel free to 
+			a(href='mailto: www.anitadugar9163@gmail.com') email 
+			p me
+		p - Rishab Dugar

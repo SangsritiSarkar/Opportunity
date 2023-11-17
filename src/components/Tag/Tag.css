@@ -1,0 +1,121 @@
+:root {
+	--bg: rgb(31, 32, 40);
+	--bg--10: rgb(31, 32, 40, 0.1);
+	--bg--light: rgba(31, 49, 187, 0.2);
+	--accent: #5f5e5b;
+	--accent--filter: invert(68%) sepia(69%) saturate(1418%) hue-rotate(360deg) brightness(102%) contrast(99%);
+	--pink: rgb(194, 128, 210);
+	--pink-light: rgb(244, 210, 253) ;
+	--green: rgb(67, 185, 126);
+	--green-light: rgb(185, 249, 217);
+	--green--fadded: rgba(67, 185, 126, 0.255);
+	--yellow: var(--accent);
+	--yellow-light: #c0bfbd;
+}
+.tag{
+	background-color: white;
+	font-size: 12px;
+	padding: 5px 10px;
+	border-radius: 25px;
+	font-weight: 600;
+	/* transition: 0.25s all;	 */
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.tag:hover{
+	outline: 1px solid rgb(149, 149, 149);
+}
+.tag.dimmed{
+	color: rgb(149, 149, 149);
+}
+.tag.dimmed:hover{
+	color: white;
+	outline: 1px solid rgb(149, 149, 149);
+}
+.tag.primary{
+	color: white;
+	font-weight: 600;
+}
+.tag.primary.green{
+	background-color: var(--green-light) !important;
+	color: var(--green);
+}
+
+
+.tag.primary.yellow {
+	background-color: var(--yellow-light) !important;
+	color: var(--yellow);
+}
+.tag.primary.pink {
+	background-color: var(--pink-light) !important;
+	/* box-shadow: inset -5px 0 5px rgba(255, 255, 255, 0.2),
+		inset 5px 0 5px rgba(255, 255, 255, 0.2); */
+		color: var(--pink);
+}
+.tag.primary:hover{
+	/* outline: 2px solid rgb(61, 61, 61); */
+}
+.tag.secondary.green{
+	color: var(--green);
+	outline: 2px solid var(--green);
+	color: black;
+	outline: 1px solid black;
+}
+.tag.selected.secondary.green{
+	outline: 0px;
+	background-color: var(--green-light);
+	/* outline: 2px solid var(--green); */
+	/* color: var(--green); */
+}
+.tag.secondary.green:hover{
+	outline: 0px;
+	background-color: var(--green-light);
+	outline: 2px solid var(--green);
+	/* color: var(--green); */
+}
+.tag.secondary.pink {
+	color: var(--pink);
+	outline: 2px solid var(--pink);
+}
+.tag.selected.secondary.pink{
+	outline: 0px;
+	background-color: var(--pink-light);
+	/* outline: 2px solid var(--pink); */
+}
+.tag.secondary.pink:hover {
+	outline: 0px;
+	background-color: var(--pink-light);
+	outline: 2px solid var(--pink);
+}
+.tag.secondary.yellow {
+	color: var(--yellow);
+	outline: 2px solid var(--yellow);
+	color: black;
+	outline: 1px solid black;
+}
+.tag.selected.secondary.yellow{
+	outline: 0px;
+	background-color: var(--yellow-light);
+	/* outline: 2px solid var(--yellow); */
+}
+.tag.secondary.yellow:hover {
+	outline: 0px;
+	background-color: var(--yellow-light);
+	outline: 2px solid var(--yellow);
+}
+.tag .cross{
+	margin: 0 0 0 10px;
+	font-size: 15px;
+	/* transition: 0.25s all; */
+}
+.tag:hover .cross{
+	color: red;
+}
+.tag span{
+	font-size: 15px;
+	margin-left: 5px;
+	cursor: pointer;
+}
